@@ -1,0 +1,27 @@
+<html>
+<head>
+<title>Welcome</title>
+{% load staticfiles %}
+</head>
+<style>
+
+  #center
+  {
+    margin-top: 10%;
+      height: 10em;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+</style>
+<body style="background:  #261a0d;">
+  <div id="center">
+    <img src="{% static 'demo_app/images/django.png'%}" alt="Some Icon">
+  </div>
+  <br><br>
+  <br><br>
+  <div id="center">
+    <img src="{% static 'demo_app/images/icon.gif'%}" alt="Some Icon">
+  </div>
+</body>
+</html>
